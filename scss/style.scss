@@ -1,0 +1,17 @@
+@import 'header.scss';
+@import 'nav.scss';
+@import 'carousel.scss';
+@import 'menu.scss';
+@import 'shop-items.scss';
+@import 'tabs.scss';
+@import 'footer.scss';
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,500&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&subset=cyrillic');
+
+
+html, body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #e9e9e9;;
+}
+
+

@@ -1,0 +1,36 @@
+.carousel-control-next,
+.carousel-control-prev {
+    width: 4%;
+    opacity: 1;
+
+
+    &-icon,
+    &-icon, {  
+        width: 14px;
+        height: 25px;
+        opacity: 1;
+}
+
+}
+
+.carousel-control-prev-icon {
+    background-image: url('img/prev.png');
+}
+
+.carousel-control-next-icon {
+    background-image: url('img/next.png');
+}
+
+.carousel-indicators {
+    
+    li {
+        border-radius: 50%;
+background-color:  #55606e;
+width: 15px;
+height: 15px;
+    }
+
+    .active {
+        background-color:  #24afb2;
+    }
+}

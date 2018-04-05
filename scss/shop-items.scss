@@ -1,0 +1,60 @@
+.shop-items {
+
+    h1 {
+        margin-top: -5px;
+        font-size: 32px;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+
+    .card {
+        min-height: 316px;
+        margin-bottom: 20px;
+        margin-left: 15px;
+        padding: 6px 6px 13px;
+
+
+        .card-body {
+            padding: 14px 0 0;
+
+            .card-text {
+                font-family: 'PT Sans', sans-serif;
+                color: #343a41;
+                font-size: 16px;
+                font-weight: 400;
+                text-align: center;
+                line-height: 20px;
+            }
+        }
+
+        .card-footer {
+            padding: 13px 0 0;
+            background-color: #fff;
+            border: none;
+
+            .card-btn {
+                height: 48px;
+                background-color:  #55606e;
+                color: #ffffff;
+                font-size: 18px;
+                font-weight: 100;
+                text-transform: capitalize;
+
+                &:hover {
+                    background-color:  #343a41;
+                }
+
+                &:active {
+                    background-color:  #24afb2;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:768px) {
+    .hidden {
+        display: none;
+    }
+    
+}

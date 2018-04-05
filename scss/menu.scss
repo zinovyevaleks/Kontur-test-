@@ -1,0 +1,98 @@
+.main {
+    margin-top: 30px;
+
+    .menu {
+        width: 220px;
+        margin-bottom: 50px;
+    
+        &__head {
+            height: 40px;
+            color: #fefefe;
+            background-color:  #343a41;
+            padding-top: 10px;
+            padding-left: 14px;
+    
+            h3 {
+                font-size: 16px;
+                font-weight: 200;
+                text-transform: uppercase;
+            }
+        }
+        
+        .card {
+            border: none;
+            border-radius: 0px;
+            background-color:  #0a989b;
+            color: #fff;
+            
+
+            .card-header {
+                height: 40px;
+                padding-top: 0px;
+                padding-left: 2px;
+                border: none;
+                background-color: #fff;
+
+                &:first-child {
+                    border-radius: 0;
+                }
+    
+                .btn-link {
+                    height: 40px;
+                    width: 112%;
+                    color: #343a41;
+                    text-align: left;
+                    
+                    
+    
+                    &:first-letter {
+                        text-transform: capitalize;
+                    }
+                }                 
+            }
+
+            .card-active {
+                
+                background-color:  #24afb2;
+                transition: all .2s;
+
+                .btn-link {
+                    height: 40px;
+                    width: 112%;
+                    color: #fefefe;
+                    text-align: left;
+                }    
+                    
+            }
+
+            .card-body {
+                padding-top: 10px;
+                padding-left: 3px;
+                padding-bottom: 0;
+
+                .card-list {
+                    padding-left: 31px;
+
+                    .card-item {
+                        margin-right: -20px;
+                    }
+                }
+                
+            }
+
+            .nav-link {
+                padding: 0;
+                color: #fff;
+                font-size: 14px;
+
+                &:first-letter {
+                    text-transform: capitalize;
+                }
+            }
+
+            
+        }
+    } 
+}
+
+     
